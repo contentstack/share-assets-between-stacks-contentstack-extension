@@ -4,13 +4,13 @@
 
 ## About this extension
 
-content will be added here about extension
+For effective management of our website content and related assets, we often make use of multiple stacks. We might have use cases where we are required to use assets from one stack in another stack. Moving assets manually from one stack to another can be time consuming. Therefore, we have developed an extension that enables users to share assets between stacks.
 
 ![contentstack youtube image extension](https://user-images.githubusercontent.com/29656920/92005785-84921c00-ed61-11ea-911a-0e13cf190a2f.png)
 
 ## How to use this extension
 
-We have created a step-by-step guide on how to create a Youtube extension for your content types. You can refer the []() on our documentation site for more info.
+We have created a step-by-step guide on how to create an asset sharing extension for your assets. You can refer the [Asset sharing extension guide](#) on our documentation site for more info.
 
 ## Modifying this extension
 
