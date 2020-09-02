@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contentstack Field Extension</title>
+  <script src="https://www.contentstack.com/sdks/contentstack-ui-extensions/dist/latest/ui-extension-sdk.js"></script>
+  <link href="https://www.contentstack.com/sdks/contentstack-ui-extensions/dist/1.1.0/ui-extension-sdk.css"
+    rel="stylesheet" type="text/css" media="all">
+  <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="./bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"
+    integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="description_box">
+        <div id="selected-asset" class="row">
+        </div>
+        <button style="display: none" id="choose-button" class="btn cs-btn-primary button">Choose Assets</button>
+        <button id="hide-button" style="display: none" class="btn cs-btn-primary button">Hide Assets</button>
+        <div class="reference-loading">
+          <div class="loading-flash">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <!-- list section start  here -->
+      <div id="choose-asset-section">
+        <div id="message-container" class="invalid"> No assets Found</div>
+        <ul id="asset-list" class="row">
+        </ul>
+        <button id="load-more-button" style="display: none" onclick="loadMore()" class="btn cs-btn-primary">Load
+          More</button>
+      </div>
+      <!-- list section ends  here -->
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
