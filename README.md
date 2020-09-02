@@ -1,4 +1,6 @@
-#  Share Assets Between Stacks  – Contentstack Extension
+[![Contentstack](https://www.contentstack.com/assets/blt440aad5a09c89b2f/contentstack_icon.svg)](https://www.contentstack.com/)
+
+# Share Assets Between Stacks  – Contentstack Extension
 
 ## About this extension
 
