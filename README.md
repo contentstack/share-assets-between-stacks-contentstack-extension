@@ -6,7 +6,7 @@
 
 content will be added here about extension
 
-![contentstack youtube image extension](https://user-images.githubusercontent.com/29656920/92005591-485ebb80-ed61-11ea-8f1c-5ed13cf0ea84.png)
+![contentstack youtube image extension](https://user-images.githubusercontent.com/29656920/92005785-84921c00-ed61-11ea-911a-0e13cf190a2f.png)
 
 ## How to use this extension
 
