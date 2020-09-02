@@ -2,13 +2,11 @@
 
 ## About this extension
 
-The  be saved as JSON in Contentstack. 
-
-![contentstack youtube image extension](https://images.contentstack.io/v3/assets/bltf2fb14dd3176c6f6/blt9b65fe8bd67eee33/5bd6fb9734f567415a653668/download)
+content will be added here about extension
 
 ## How to use this extension
 
-We have created a step-by-step guide on how to create a Youtube extension for your content types. You can refer the [Youtube extension guide](https://www.contentstack.com/docs/guide/extensions/youtube-extension-setup-guide) on our documentation site for more info.
+We have created a step-by-step guide on how to create a Youtube extension for your content types. You can refer the []() on our documentation site for more info.
 
 ## Modifying this extension
 
