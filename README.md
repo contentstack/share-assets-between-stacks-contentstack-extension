@@ -6,6 +6,8 @@
 
 content will be added here about extension
 
+![contentstack youtube image extension](https://user-images.githubusercontent.com/29656920/92004339-bc985f80-ed5f-11ea-8d31-ff993c05007c.png)
+
 ## How to use this extension
 
 We have created a step-by-step guide on how to create a Youtube extension for your content types. You can refer the []() on our documentation site for more info.
