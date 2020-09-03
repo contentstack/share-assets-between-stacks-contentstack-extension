@@ -32,7 +32,6 @@
 
 .loadspin {
   align-content: center !important;
-  background: url("https://images.contentstack.io/v3/assets/bltd1343376dfba54d2/blta0b4f830d61ba527/5b58019b4f5e9b551d22f4f9/loading.gif") no-repeat !important;
   background-position: 40% 3px !important;
   pointer-events: none;
 }
