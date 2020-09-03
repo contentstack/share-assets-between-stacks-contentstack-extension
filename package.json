@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
-    "test": "depcheck"
+    "depcheck": "depcheck"
   },
   "author": "Contentstack",
   "license": "MIT",
