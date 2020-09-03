@@ -12,7 +12,7 @@ For effective management of our website content and related assets, we often mak
 
 ## How to use this extension
 
-We have created a step-by-step guide on how to create an asset sharing extension for your stack. You can refer the [Asset sharing extension](#) guide for more detail.
+We have created a step-by-step guide on how to create an asset sharing extension for your stack. You can refer the [Asset sharing extension](www.contentstack.com/docs/developers/how-to-guides/sharing-assets-between-stacks-using-an-extension/) guide for more detail.
 
 ## Modifying this extension
 
@@ -31,5 +31,5 @@ To create new build for the extension, run the following command (index.html):
 
 -   [Extensions guide](https://www.contentstack.com/docs/guide/extensions)
     
--   [Common questions about extensions](https://www.contentstack.com/docs/faqs#extensions)
+-   [Common questions about extensions](https://www.contentstack.com/docs/developers/experience-extensions-faqs/)
 
