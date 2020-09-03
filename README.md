@@ -2,6 +2,8 @@
 
 # Share Assets Between Stacks  – Contentstack Extension
 
+Contentstack is a headless CMS with an API-first approach. It is a CMS that developers can use to build powerful cross-platform applications in their favorite languages. Build your application frontend, and Contentstack will take care of the rest. [Read More](https://www.contentstack.com/).
+
 ## About this extension
 
 For effective management of our website content and related assets, we often make use of multiple stacks. We might have use cases where we are required to use assets from one stack in another stack. Moving assets manually from one stack to another can be time consuming. Therefore, we have developed an extension that enables users to share assets between stacks.
