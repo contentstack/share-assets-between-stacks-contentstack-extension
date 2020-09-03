@@ -1,11 +1,10 @@
+// variable declaration
+
 let extensionField;
 let loader;
 let assetList;
 let messageContainer;
 let stack;
-let previousQuery;
-let loadMoreButton;
-let searchInput;
 let hideButton;
 let chooseButton;
 let assetListSection;
@@ -137,13 +136,6 @@ const selectAsset = (asset) => {
   $('#selected-asset').html(selectedContainer);
 }
 
-const reset = () => {
-  previousQuery = '';
-  assetList.empty();
-  currentAssetList = [];
-  searchInput.val('');
-  return render(initialResponse);
-}
 
 // eventListener function
 
@@ -270,8 +262,6 @@ const initializeAssetList = () => {
 }
 
 const initializeButtons = () => {
-  loadMoreButton = $('#load-more-button');
-  searchInput = $('#search-input');
   hideButton = $('#hide-button');
   chooseButton = $('#choose-button');
 
@@ -279,7 +269,6 @@ const initializeButtons = () => {
     hideButton.show();
     chooseButton.hide();
     assetListSection.show();
-    reset();
   });
 
   hideButton.click(close);
