@@ -4,7 +4,8 @@
   "description": "This extension provides the ability to share assets between stacks",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "test": "depcheck"
   },
   "author": "Contentstack",
   "license": "MIT",
