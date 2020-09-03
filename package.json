@@ -1,7 +1,7 @@
 {
   "name": "share-assets-between-stacks-contentstack-extension",
   "version": "1.0.0",
-  "description": "This extension provides the ability to share assets between two stacks",
+  "description": "This extension provides the ability to share assets between stacks",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build"
