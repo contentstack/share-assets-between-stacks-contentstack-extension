@@ -12,7 +12,7 @@ For effective management of our website content and related assets, we often mak
 
 ## How to use this extension
 
-We have created a step-by-step guide on how to create an asset sharing extension for your assets. You can refer the [Asset sharing extension](#) guide for more detail.
+We have created a step-by-step guide on how to create an asset sharing extension for your stacks. You can refer the [Asset sharing extension](#) guide for more detail.
 
 ## Modifying this extension
 
