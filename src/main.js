@@ -79,7 +79,7 @@ const selectAsset = (asset) => {
     if (obj.filename.includes('.pdf')) {
       return `<div  id='${obj.uid}' class="col-xs-6 col-sm-4 col-md-3 mainDiv"  title="${obj.title}"><li>
     <div class="img-wrapper">
-      <img class="thumbnail" src=${pdfFormat}>
+      <img class="thumbnail" src=${pdfFormatIcon}>
     </div>
     <span class="title truncate">${obj.title}</span>
     <span title="Remove asset" id="close-button">×</span>
@@ -90,7 +90,7 @@ const selectAsset = (asset) => {
 
       return `<div  id='${obj.uid}' class="col-xs-6 col-sm-4 col-md-3 mainDiv"  title="${obj.title}"><li>
   <div class="img-wrapper">
-    <img class="thumbnail" src=${docFormat}>
+    <img class="thumbnail" src=${docFormatIcon}>
   </div>
   <span class="title truncate">${obj.title}</span>
   <span title="Remove asset" id="close-button">×</span>
@@ -101,7 +101,7 @@ const selectAsset = (asset) => {
 
       return `<div  id='${obj.uid}' class="col-xs-6 col-sm-4 col-md-3 mainDiv"  title="${obj.title}"><li>
   <div class="img-wrapper">
-    <img class="thumbnail" src=${mp4Format}>
+    <img class="thumbnail" src=${mp4FormatIcon}>
   </div>
   <span class="title truncate">${obj.title}</span>
   <span title="Remove asset" id="close-button">×</span>
@@ -112,7 +112,7 @@ const selectAsset = (asset) => {
 
       return `<div  id='${obj.uid}' class="col-xs-6 col-sm-4 col-md-3 mainDiv"  title="${obj.title}"><li>
   <div class="img-wrapper">
-    <img class="thumbnail" src=${excelFormat}>
+    <img class="thumbnail" src=${excelFormatIcon}>
   </div>
   <span class="title truncate">${obj.title}</span>
   <span title="Remove asset" id="close-button">×</span>
@@ -176,7 +176,7 @@ const render = (data) => {
       return assetList.append(`<li class="col-xs-6 col-sm-4 col-md-3" title="${index.title}"  id="${index.uid}">
                             <div class="box">
                             <div class="img-wrapper">
-                              <img class="thumbnail" src=${pdfFormat}>
+                              <img class="thumbnail" src=${pdfFormatIcon}>
                             </div>
                             <span class="title truncate">${index.title}</span>
                             </div>
@@ -187,7 +187,7 @@ const render = (data) => {
       return assetList.append(`<li class="col-xs-6 col-sm-4 col-md-3" title="${index.title}"  id="${index.uid}">
                               <div class="box">
                               <div class="img-wrapper">
-                                <img class="thumbnail" src=${docFormat}>
+                                <img class="thumbnail" src=${docFormatIcon}>
                               </div>
                               <span class="title truncate">${index.title}</span>
                               </div>
@@ -197,7 +197,7 @@ const render = (data) => {
       return assetList.append(`<li class="col-xs-6 col-sm-4 col-md-3" title="${index.title}"  id="${index.uid}">
                             <div class="box">
                             <div class="img-wrapper">
-                              <img class="thumbnail" src=${mp4Format}>
+                              <img class="thumbnail" src=${mp4FormatIcon}>
                             </div>
                             <span class="title truncate">${index.title}</span>
                             </div>
@@ -207,7 +207,7 @@ const render = (data) => {
       return assetList.append(`<li class="col-xs-6 col-sm-4 col-md-3" title="${index.title}"  id="${index.uid}">
                           <div class="box">
                           <div class="img-wrapper">
-                            <img class="thumbnail" src=${excelFormat}>
+                            <img class="thumbnail" src=${excelFormatIcon}>
                           </div>
                           <span class="title truncate">${index.title}</span>
                           </div>
